@@ -66,6 +66,30 @@ header article p {
     font-size: 1.5rem;
 }
 
+/* Animation Person */
+
+.person {
+    width: 100%;
+    animation-name: flo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes flo {
+    50% {
+        transform: translateY(30px);
+    }
+}
+
+.person img {
+    width: 70%;
+    position: absolute;
+    top: -21rem;
+    right: -8rem;
+
+}
+/* ------------------ */
 .better_designer {
     margin-top: 30rem;
     margin-left: 10rem;
@@ -168,7 +192,7 @@ header article p {
 .img_text {
     display: flex;
     flex-direction: column;
-    margin: 0 8rem ;
+    margin: 0 8rem;
 }
 
 .img_text div img {
@@ -237,9 +261,10 @@ footer form button {
     padding: 1rem 5rem;
     border-radius: 5px;
     color: white;
-    background-color: #ff3571 ;
+    background-color: #ff3571;
     border-style: none;
 }
+
 footer div {
     display: flex;
     gap: 10px;
@@ -263,6 +288,7 @@ footer div p {
     html {
         font-size: 8px;
     }
+
     header article {
         justify-content: center;
         background-color: white;
